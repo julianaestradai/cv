@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(245, 230, 252);
+    margin: 20px;
+    font-family:'Poppins', sans-serif;
+    color:  rgb(99, 59, 107);
+}
+
+header {
+    background-color: rgb(99, 59, 107);
+    color: rgb(245, 230, 252);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header Img {
+    width: 350px;
+    border: 20px double rgb(169, 144, 169);
+}
+
+header h1 {
+    width: 800px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fondoimagen {
+    background-image:url("https://images.unsplash.com/photo-1527842891421-42eec6e703ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    }
+
+.informacion {
+    background-color:rgb(169, 144, 169);
+    height: fit-content;
+    width: 370px;
+    color:  rgb(245, 230, 252);
+    padding: 15px 30px;
+}    
+
+#texto-p {
+    font-weight: 300 ;
+}
+
+.experiencia {
+    width: 720px;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: top center;
+    justify-content: space-between;
+}
+
+.idiomas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
